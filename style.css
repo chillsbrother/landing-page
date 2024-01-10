@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header, .footer {
@@ -8,10 +9,19 @@ body {
     height: 75px;
 }
 
-.main {
-    background-color:#1F2937
+.information {
+    height: 300px;
 }
 
+.main {
+    background-color:#1F2937;
+    height: 300px;
+}
+
+.cta {
+    height: 300px;
+}
 .quote {
     background-color: #E5E7EB;
+    height: 300px;
 }
