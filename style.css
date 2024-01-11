@@ -25,3 +25,20 @@ body {
     background-color: #E5E7EB;
     height: 300px;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    margin: 60px;
+    display: flex;
+    gap: 15px;
+}
+
+.uuc {
+    margin: 60px;
+}
