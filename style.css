@@ -9,7 +9,7 @@ body {
     height: 75px;
 }
 
-.information {
+.information, .cta {
     height: 300px;
 }
 
@@ -18,9 +18,6 @@ body {
     height: 300px;
 }
 
-.cta {
-    height: 300px;
-}
 .quote {
     background-color: #E5E7EB;
     height: 300px;
@@ -41,4 +38,21 @@ body {
 
 .uuc {
     margin: 60px;
+}
+
+.main {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.maintext, .mainpic{
+    margin: 60px;
+}
+
+
+.quote, .cta, .information, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
