@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+
 }
 
 .header, .footer {
@@ -35,8 +35,19 @@ img {
 }
 
 .quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
     height: 300px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotetext {
+    width: 800px;
+    height: 100px;
 }
 
 .header {
